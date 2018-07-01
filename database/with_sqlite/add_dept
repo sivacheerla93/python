@@ -1,0 +1,15 @@
+import sqlite3
+
+try:
+    con = sqlite3.connect(r"d:\Education\git_workspace\python\database\hr.db")
+    cur = con.cursor()
+    id = input("Enter dept id: ")
+    name = input("Enter dept name: ")
+    cur.execute("insert into dept values(?,?)", (id, name))
+    con.commit()
+    cur.close()
+    print("Added", name, "department!")
+except Exception as ex:
+    print("Error: ", ex)
+finally:
+    con.close()
