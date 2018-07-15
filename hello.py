@@ -2,6 +2,6 @@ import sys
 
 print(sys.path)
 
-msg = "Hello Python!"
+msg = "Welcome to Python!"
 print(msg)
 print(type(msg))
