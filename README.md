@@ -12,13 +12,18 @@ Python interpreters are available for many operating systems. CPython, the refer
 
 ### Resources
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
+
 [Google’s Python Classes](https://developers.google.com/edu/python/)
+
 [Python tutorials from JavaTPoint.Com](https://www.javatpoint.com/python-tutorial)
+
 [Python tutorials from TutorialsPoint.Com](https://www.tutorialspoint.com/python/)
+
 [Python tutorials from TutorialsPoint.Com](https://www.w3schools.com/python/)
+
 [Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
-[Videos regarding how to use PyCharm](https://www.jetbrains.com/pycharm/documentation/pychar
-m-videos.html)
+
+[Videos regarding how to use PyCharm](https://www.jetbrains.com/pycharm/documentation/pycharm-videos.html)
 
 ### Note:
 If you find any error or want to give any suggestion, create an issue or write to sivacheerla@live.com
