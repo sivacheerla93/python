@@ -3,4 +3,4 @@ Python is an interpreted high-level programming language for general-purpose pro
 
 Python features a dynamic type system and automatic memory management. It supports multiple programming paradigms, including object-oriented, imperative, functional and procedural, and has a large and comprehensive standard library.
 
-Python interpreters are available for many operating systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of Python's other implementations. Python 1and CPython are managed by the non-profit Python Software Foundation. ![](https://en.wikipedia.org/wiki/Python_(programming_language))
+Python interpreters are available for many operating systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of Python's other implementations. Python 1and CPython are managed by the non-profit Python Software Foundation. [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
