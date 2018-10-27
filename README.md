@@ -25,5 +25,7 @@ Python interpreters are available for many operating systems. CPython, the refer
 
 [Videos regarding how to use PyCharm](https://www.jetbrains.com/pycharm/documentation/pycharm-videos.html){:target="_blank"}
 
+<a href="http://example.com/" target="_blank">example</a>
+
 ### Note:
 If you find any error or want to give any suggestion, create an issue or write to sivacheerla@live.com
