@@ -23,7 +23,7 @@ Python interpreters are available for many operating systems. CPython, the refer
 
 [Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
 
-[Videos regarding how to use PyCharm](https://www.jetbrains.com/pycharm/documentation/pycharm-videos.html)
+[Videos regarding how to use PyCharm](https://www.jetbrains.com/pycharm/documentation/pycharm-videos.html){:target="_blank"}
 
 ### Note:
 If you find any error or want to give any suggestion, create an issue or write to sivacheerla@live.com
