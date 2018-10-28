@@ -15,7 +15,7 @@ Python interpreters are available for many operating systems. CPython, the refer
 
 Download Python from above link and install. Make sure you set Python path to Environment variables to launch Python from Windows cmd!
 
-### Important Coommands
+### Important Commands
 <p>python --version - To know the Python version</p>
 <p>python  - To launch the Python shell or REPL from cmd or terminal</p>
 <p>help() - To get help from language</p>
@@ -27,7 +27,11 @@ PIP is a package management system used to install and manage software packages 
 Note: If you have Python version 3.4 or later, PIP is included by default.
 ```
 Once you done with Python installation, You can find pip.exe in Scripts folder. To access pip, we need to change directory to Scripts folder or you can set path to Enviroment variables.
-**PIP Commands**
+
+#### PIP Commands
+<p>pip list - To get all installed packages</p>
+<p>pip install package-name - To install a package</p>
+<p>pip uninstall package-name - To uninstall package</p>
 
 ### Resources
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
