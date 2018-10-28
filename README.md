@@ -37,19 +37,13 @@ pip install urllib3 - To install urllib3 package<br />
 pip install django - To install Django<br />
 pip install mysql-connector-python - To install MySQL Connector for Python
 
-<u><h3>Resources:</h3></u>
-[Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
-
-[Google’s Python Classes](https://developers.google.com/edu/python/)
-
-[Python tutorials from JavaTPoint.Com](https://www.javatpoint.com/python-tutorial)
-
-[Python tutorials from TutorialsPoint.Com](https://www.tutorialspoint.com/python/)
-
-[Python tutorials from TutorialsPoint.Com](https://www.w3schools.com/python/)
-
-[Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)
-
+<h3><u>Resources:</u></h3>
+[Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)<br />
+[Google’s Python Classes](https://developers.google.com/edu/python/)<br />
+[Python tutorials from JavaTPoint.Com](https://www.javatpoint.com/python-tutorial)<br />
+[Python tutorials from TutorialsPoint.Com](https://www.tutorialspoint.com/python/)<br />
+[Python tutorials from TutorialsPoint.Com](https://www.w3schools.com/python/)<br />
+[Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/)<br />
 [Videos regarding how to use PyCharm](https://www.jetbrains.com/pycharm/documentation/pycharm-videos.html)
 
 ### Note:
