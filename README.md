@@ -16,10 +16,10 @@ Python interpreters are available for many operating systems. CPython, the refer
 Download Python from above link and install. Make sure you set Python path to Environment variables to launch Python from Windows cmd!
 
 ### Important Commands
-<p>python --version - To know the Python version</p>
-<p>python  - To launch the Python shell or REPL from cmd or terminal</p>
-<p>help() - To get help from language</p>
-<p>exit() - To exit from Python shell</p>
+python --version - To know the Python version<br />
+python  - To launch the Python shell or REPL from cmd or terminal<br />
+help() - To get help from language<br />
+exit() - To exit from Python shell
 
 ### PIP(Python Package Index)
 PIP is a package management system used to install and manage software packages written in Python. Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI).
@@ -32,6 +32,9 @@ Once you done with Python installation, You can find pip.exe in Scripts folder. 
 <p>pip list - To get all installed packages</p>
 <p>pip install package-name - To install a package</p>
 <p>pip uninstall package-name - To uninstall package</p>
+<p>pip install urllib3 - To install urllib3 package</p>
+<p>pip install django - To install Django</p>
+<p>pip install mysql-connector-python - To install MySQL connector for Python</p>
 
 ### Resources
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
