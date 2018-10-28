@@ -24,9 +24,11 @@ exit() - To exit from Python shell
 
 <h3>PIP(Python Package Index):</h3>
 PIP is a package management system used to install and manage software packages written in Python. Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI).
+
 ```
 Note: If you have Python version 3.4 or later, PIP is included by default.
 ```
+
 Once you done with Python installation, You can find pip.exe in Scripts folder. To access pip, we need to change directory to Scripts folder or you can set path to Enviroment variables.
 
 #### PIP Commands:
