@@ -16,13 +16,10 @@ Python interpreters are available for many operating systems. CPython, the refer
 Download Python from above link and install. Make sure you set Python path to Environment variables to launch Python from Windows cmd!
 
 ### Important Coommands
-python --version - To know the Python version
-
-python  - To launch the Python shell or REPL from cmd or terminal
-
-help() - To get help from language
-
-exit() - To exit from Python shell
+<p>python --version - To know the Python version</p>
+<p>python  - To launch the Python shell or REPL from cmd or terminal</p>
+<p>help() - To get help from language</p>
+<p>exit() - To exit from Python shell</p>
 
 ### PIP(Python Package Index)
 PIP is a package management system used to install and manage software packages written in Python. Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI).
