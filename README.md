@@ -12,6 +12,7 @@ Python interpreters are available for many operating systems. CPython, the refer
 * IDE: PyCharm 2018.1 (Community Edition)
 
 <h3>Download Python:</h3>
+
 [Python for Windows](https://www.python.org/downloads/windows/)
 
 Download Python from above link and install. Make sure you set Python path to Environment variables to launch Python from Windows cmd!
