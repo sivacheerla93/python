@@ -8,6 +8,7 @@ Python interpreters are available for many operating systems. CPython, the refer
 ### Workspace Configuartion:
 * OS: Windows 8.1 64-bit
 * Language: Python 3.4.4
+* Database: MySQL 5.7
 * IDE: PyCharm 2018.1 (Community Edition)
 
 ### Download Python
@@ -29,12 +30,12 @@ Note: If you have Python version 3.4 or later, PIP is included by default.
 Once you done with Python installation, You can find pip.exe in Scripts folder. To access pip, we need to change directory to Scripts folder or you can set path to Enviroment variables.
 
 #### PIP Commands
-<p>pip list - To get all installed packages</p>
-<p>pip install package-name - To install a package</p>
-<p>pip uninstall package-name - To uninstall package</p>
-<p>pip install urllib3 - To install urllib3 package</p>
-<p>pip install django - To install Django</p>
-<p>pip install mysql-connector-python - To install MySQL connector for Python</p>
+pip list - To get all installed packages<br />
+pip install package-name - To install a package<br />
+pip uninstall package-name - To uninstall package<br />
+pip install urllib3 - To install urllib3 package<br />
+pip install django - To install Django<br />
+pip install mysql-connector-python - To install MySQL Connector for Python
 
 ### Resources
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
