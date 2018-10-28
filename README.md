@@ -6,6 +6,7 @@ Python features a dynamic type system and automatic memory management. It suppor
 Python interpreters are available for many operating systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of Python's other implementations. Python 1and CPython are managed by the non-profit Python Software Foundation. [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 <h3>Workspace Configuration:</h3>
+
 * OS: Windows 8.1 64-bit
 * Language: Python 3.4.4
 * Database: MySQL 5.7
