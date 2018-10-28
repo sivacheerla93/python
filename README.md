@@ -38,6 +38,7 @@ pip install django - To install Django<br />
 pip install mysql-connector-python - To install MySQL Connector for Python
 
 <h3>Resources:</h3>
+
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
 
 [Google’s Python Classes](https://developers.google.com/edu/python/)
