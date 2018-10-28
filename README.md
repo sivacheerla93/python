@@ -10,6 +10,23 @@ Python interpreters are available for many operating systems. CPython, the refer
 * Language: Python 3.4.4
 * IDE: PyCharm 2018.1 (Community Edition)
 
+### Download Python
+[Python for Windows](https://www.python.org/downloads/windows/)
+
+Download Python from above link and install. Make sure you set Python path to Environment variables to launch Python from Windows cmd!
+
+### Important Coommands
+python --version - To know the Python version
+python  - To launch the Python shell or REPL from cmd or terminal
+help() - To get help from language
+exit() - To exit from Python shell
+
+### PIP(Python Package Index)
+PIP is a package management system used to install and manage software packages written in Python. Many packages can be found in the default source for packages and their dependencies — Python Package Index (PyPI).
+```
+Note: If you have Python version 3.4 or later, PIP is included by default.
+```
+
 ### Resources
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
 
