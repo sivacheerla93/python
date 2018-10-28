@@ -30,7 +30,7 @@ PIP is a package management system used to install and manage software packages 
 Note: If you have Python version 3.4 or later, PIP is included by default.
 ```
 Once you done with Python installation, You can find pip.exe in Scripts folder. To access pip, we need to change directory to Scripts folder or you can set path to Enviroment variables.
-*PIP Commands*
+**PIP Commands**
 
 ### Resources
 [Python Documentation 3.4 - Tutorial](https://docs.python.org/3.4/)
