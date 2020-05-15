@@ -39,7 +39,7 @@ while(starter):
         if len(records) == 0:
             print("No records found to export!")
         else:
-            with open('hardware.csv', 'w', newline = '') as file:
+            with open('../hardware.csv', 'w', newline ='') as file:
                 writer = csv.writer(file)
                 writer.writerow(["S. No", "Hardware", "Purchase year", "User", "Location"])
                 for index, i in enumerate(records):
