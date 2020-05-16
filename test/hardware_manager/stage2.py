@@ -15,9 +15,15 @@ while starter:
     purchaseYear = input("Purchase Year: ")
     user = input("User: ")
     location = input("Location: ")
-    obj = HardwareManager(hardware, purchaseYear, user, location)
-    records.append(obj)
-    print(hardware + " (" + purchaseYear + ") has been recorded as assigned to " + user + " and retained at " + location)
+
+    if hardware.strip() != "" and purchaseYear.strip() != "" and user.strip() != "" and location.strip() != "":
+        while location.strip().upper() not in {"HOME", "OFFICE"}:
+            location = input("Invalid location! Enter Home (or) Office: ")
+        obj = HardwareManager(hardware, purchaseYear, user, location)
+        records.append(obj)
+        print(hardware + " (" + purchaseYear + ") has been recorded as assigned to " + user + " and retained at " + location)
+    else:
+        print("No record has been recorded.")
 
     option = input("Do you wish to enter another record? (Y/N): ").upper()
 

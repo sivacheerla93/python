@@ -1,17 +1,19 @@
 import csv
 
-class HardwareManager():
+
+class HardwareManager:
     def __init__(self, hardware, purchaseYear, user, location):
         self.hardware = hardware
         self.purchaseYear = purchaseYear
         self.user = user
         self.location = location
 
+
 print("Hardware Manager")
 records = []
 starter = True
 
-while(starter):
+while starter:
     print()
     print("------------------------")
     print("(A)dd a new record")
@@ -19,16 +21,22 @@ while(starter):
     print("(E)xport to CSV")
     print("(Q)uit")
 
-    option = input("Your choice: ")
+    option = input("Your choice: ").upper()
 
     if option == "A":
         hardware = input("Hardware: ")
         purchaseYear = input("Purchase Year: ")
         user = input("User: ")
         location = input("Location: ")
-        obj = HardwareManager(hardware, purchaseYear, user, location)
-        records.append(obj)
-        print(hardware + " (" + purchaseYear + ") has been recorded as assigned to " + user + " and retained at " + location)
+        if hardware.strip() != "" and purchaseYear.strip() != "" and user.strip() != "" and location.strip() != "":
+            while location.strip().upper() not in {"HOME", "OFFICE"}:
+                location = input("Invalid location! Enter Home (or) Office: ")
+            obj = HardwareManager(hardware, purchaseYear, user, location)
+            records.append(obj)
+            print(
+                hardware + " (" + purchaseYear + ") has been recorded as assigned to " + user + " and retained at " + location)
+        else:
+            print("No record has been recorded.")
     elif option == "L":
         if len(records) == 0:
             print("No records found to display!")
@@ -39,18 +47,13 @@ while(starter):
         if len(records) == 0:
             print("No records found to export!")
         else:
-            with open('../hardware.csv', 'w', newline ='') as file:
+            with open('hardware.csv', 'w', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow(["S. No", "Hardware", "Purchase year", "User", "Location"])
                 for index, i in enumerate(records):
-                    row = []
-                    row.append(index + 1)
-                    row.append(i.hardware)
-                    row.append(i.purchaseYear)
-                    row.append(i.user)
-                    row.append(i.location)
+                    row = [index + 1, i.hardware, i.purchaseYear, i.user, i.location]
                     writer.writerow(row)
-            print("Records saved as hardware.csv.")
+            print("Records saved as hardware.csv")
     elif option == "Q":
         print("Thank you!")
         starter = False
